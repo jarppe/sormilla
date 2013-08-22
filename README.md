@@ -18,4 +18,11 @@ $ ln -s /where/you/put/the/sdk/LeapSDK .
 $ lein run
 ```
 
+Linux, run these after ln -s ...
+```
+cd LeapSDK/lib/x64 # (or x86 depending on your arch)
+cp libLeapJava.so libLeap.so ..
+cd ../../..
+```
+
 See, that wasn't so hard, eh?
